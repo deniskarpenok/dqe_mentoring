@@ -1,0 +1,29 @@
+{
+  "tests": [
+    {
+      "name": "Check table 'tracks' for data existing",
+      "query": "SELECT count(*) FROM tracks",
+      "expected": 3503
+    },
+    {
+      "name": "Check table 'albums' for data existing",
+      "query": "SELECT count(*) FROM albums",
+      "expected": 3503
+    },
+    {
+      "name": "test 1",
+      "query": "SELECT count(*) FROM playlists",
+      "expected": 25
+    },
+    {
+      "name": "test 2",
+      "query": "SELECT count(*) FROM genres",
+      "expected": 3
+    },
+    {
+      "name": "test 3",
+      "query": "SELECT count(*) FROM customers",
+      "expected": 15
+    }
+  ]
+}

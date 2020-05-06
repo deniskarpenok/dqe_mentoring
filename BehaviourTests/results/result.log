@@ -1,0 +1,20 @@
+
+
+Testing of Google Page Smoke Test was started
+
+
+Test case 'Open Google page and search'
+PASS. Result is 'page was opened' as expected
+	Query: <given "main page was opened">
+PASS. Result is 'search field was found' as expected
+	Query: <when "search for "epam"">
+FAIL. Result is 'link https://careers.epam.by was not found', but expected 'https://careers.epam.by'
+	Query: <then "link "https://careers.epam.by" on the result page">
+
+Test case 'Open Google page and search'
+PASS. Result is 'page was opened' as expected
+	Query: <given "main page was opened">
+PASS. Result is 'search field was found' as expected
+	Query: <when "search for "something else"">
+FAIL. Result is 'link https://epam.by was not found', but expected 'https://epam.by'
+	Query: <then "link "https://epam.by" on the result page">

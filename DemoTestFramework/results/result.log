@@ -1,0 +1,24 @@
+
+
+Testing of /Users/dinas/Desktop/dqe_mentoring/DemoTestFramework/test_data/smoke_tests.json was started
+
+
+Test case 'Check table 'tracks' for data existing'
+PASS. Result is '3503' as expected
+	Query: SELECT count(*) FROM tracks
+
+Test case 'Check table 'albums' for data existing'
+FAIL. Result is '347', but expected '3503'
+	Query: SELECT count(*) FROM albums
+
+Test case 'test 1'
+FAIL. Result is '18', but expected '25'
+	Query: SELECT count(*) FROM playlists
+
+Test case 'test 2'
+FAIL. Result is '25', but expected '3'
+	Query: SELECT count(*) FROM genres
+
+Test case 'test 3'
+FAIL. Result is '59', but expected '15'
+	Query: SELECT count(*) FROM customers
