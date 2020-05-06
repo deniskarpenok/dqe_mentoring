@@ -1,8 +1,8 @@
-
-##  None type
-a = None
-print(type(a))
-
+#
+# ##  None type
+# a = None
+# print(type(a))
+#
 # # boolean
 # b = True
 # print(type(b))
@@ -10,14 +10,14 @@ print(type(a))
 # # int
 # c = 1
 # print(type(c))
-#
-#
-# # float
-# d = 0.1
-# print(type(d))
-# print(d * 10)
-# print(d + d + d + d + d + d + d + d + d + d)
-#
+
+
+# float
+d = 0.1
+print(type(d))
+print(d * 10)
+print(d + d + d + d + d + d + d + d + d + d)
+
 # # list
 # e = [1, 2, 3]
 # print(type(e))

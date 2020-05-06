@@ -1,20 +1,21 @@
 
 # 1. Class
-#test commit
-
-class A:
-    def __init__(self):
-        self.name = 'class A'
-
-    def say_your_name(self):
-        print('I am class {}'.format(self.name))
-
-
-object_a = A()
-
-object_a.say_your_name()
-
-print(type(object_a))
+# # test commit
+#
+#
+# class A:
+#     def __init__(self):
+#         self.name = 'class A'
+#
+#     def say_your_name(self):
+#         print('I am class {}'.format(self.name))
+#
+#
+# object_a = A()
+#
+# object_a.say_your_name()
+#
+# print(type(object_a))
 
 
 # 2. Abstraction
@@ -25,7 +26,6 @@ class Sensor:
     def __init__(self):
         self.temp_format = 'C'
         self.value = self.calculate_value()
-
 
     def get_value(self):
         return self.calculate_value()
@@ -42,13 +42,13 @@ class Sensor:
 
 sensor = Sensor()
 
-#sensor.set_format('F')
+sensor.set_format('F')
 current_value = sensor.get_value()
 print(current_value)
 
 
-# 3. Encapsulation
-#sensor.__calculate_value()
+# # 3. Encapsulation
+# sensor.__calculate_value()
 
 # 4. Inheritance
 class UserFriendlySensor(Sensor):
@@ -58,6 +58,8 @@ class UserFriendlySensor(Sensor):
     def get_value(self):
          return 'Current temperature is {0} degrees of {1}'.format(self.calculate_value(), self.temp_format)
 
+
+print('Inheritance')
 uf_sensor = UserFriendlySensor()
 
 uf_sensor.set_format('F')
